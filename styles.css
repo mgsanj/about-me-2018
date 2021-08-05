@@ -1,0 +1,94 @@
+h1, h2 {
+  color: #0404B4;
+  font-weight: bold;
+  font-size: 220%;
+}
+
+body { 
+  background: url('https://ih1.redbubble.net/image.503223930.6588/flat,550x550,075,f.u2.jpg');
+  background-size: cover;
+}
+
+p {
+  font-size: 120%;
+  font-weight: bold;
+}
+li {
+  font-weight: bold
+}
+
+img {
+  height: 350px;
+  img-align: center;
+}
+  
+.container {
+  display: flex;
+}
+
+.content {
+  margin-left: 35px;
+}
+
+.navbar {
+    background-color: #424242;
+    font-family: "Palatino Linotype";
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: #FEFEFE;
+    font-weight: bold;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: #FEFEFE;
+    font-weight: bold;
+    padding: 18px 16px;
+    background-color: inherit;
+    font-family: "Palatino Linotype";
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #5FC1C2;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
